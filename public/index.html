@@ -8,12 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&amp;display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" />
 
     <title>Tradebuza Website</title>
   </head>
-  <body>
-    <header>
+  <body class="d-flex flex-column h-100">
+
+    <!-- <header>
       <a href="index.html">
         <img src="images/tradebuza_logo.png" alt="Tradebuza" class="logo"
       /></a>
@@ -36,18 +38,75 @@
       <button class="button">
         <a href="#" class="button-link">Get Started</a>
       </button>
-    </header>
+    </header> -->
+    
+    
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src="images/tradebuza_logo.png" alt="Tradebuza" class="logo"
+        /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav nav_list">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Who We Are
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                What We Offer
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="capture.html">TradeBuza Capture</a></li>
+                <li><a class="dropdown-item" href="agroAPI.html">TradeBuza AgroAPI</a></li>
+                <li><a class="dropdown-item" href="agro.html">TradeBuza Agro</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="referral.html">Referral</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://agroapp.tradebuza.com/">TradeBuza Capture</a></li>
+                <li><a class="dropdown-item" href="https://tie.tradebuza.com/login">TradeBuza AgroAPI</a></li>
+                <li><a class="dropdown-item" href="https://agroapp.tradebuza.com/">TradeBuza Agro</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="button">
+            <a href="getStarted.html" class="button-link">Get Started</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+
     <main class="main">
       <section class="intro">
         <div class="jumbotron">
           <div class="header_paragraph">
             <h1 class="header_text">
-              Digital Agriculture Infrastructure for Africa
+              Digital Agriculture
+              <br /> 
+              Infrastructure for Africa
             </h1>
-            <p>
-              TradeBuza leverages technology to help smallholder farmers access
-              agriculture financing.
+            <p class="header-sub_text">
+              TradeBuza leverages technology to help smallholder 
+              <br />
+              farmers access agriculture financing.
             </p>
+            <button class="button">
+              <a href="getStarted.html" class="button-link">Schedule A Demo</a>
+            </button>
           </div>
           <div class="header_icon">
             <img src="images/header.png" alt="Tradebuza header" />
@@ -57,42 +116,138 @@
       <section class="simple">
         <div>
           <h1 class="">
-            Data and API Infrastructure | Farm Management | Agricultural Credit
-            Risk Assessment
+            Data and API Infrastructure | Farm Management |
+            <br />
+            Agricultural Credit Risk Assessment
+            <br />
+            <br />
           </h1>
           <p>
             Our solutions cater to a broad range of clients from large growers,
-            multi-farm corporations, ag-buyers, food conglomerates,
-            ag-financing, and insurance companies, to government organizations.
+            multi-farm
+            <br /> 
+            corporations, ag-buyers, food conglomerates, ag-financing, and 
+            <br />
+            insurance companies, to government organizations.
           </p>
         </div>
         <div class="bottom-section">
           <div>
             <img src="images/truck.svg" />
             <h2>Agribusinesses</h2>
-            <p>
-              Take away the hassle of farm management, monitor performance &
-              manage all stages of your agribusiness from anywhere in the world.
+            <p class="bottom-section_text">
+              Take away the hassle of 
+              <span class="highlight_text">farm management</span>, 
+              monitor performance & manage all stages of your 
+              <span class="highlight_text">agribusiness</span> from anywhere in the world.
             </p>
           </div>
           <div>
             <img src="images/barrel.svg" />
             <h2>Financial and Government Institutions</h2>
-            <p>
+            <p class="bottom-section_text">
               Gain visibility of farm operational data to speed up & mitigate
-              agricultural credit risks.
+              <span class="highlight_text">agricultural credit risks</span>.
             </p>
           </div>
           <div>
             <img src="images/allied.svg" />
             <h2>Farmer Allied Organizations, and Cooperatives</h2>
-            <p>
-              Take away the hassle of farm management, monitor performance &
-              manage all stages of your agribusiness from anywhere in the world.
+            <p class="bottom-section_text">
+              Empower <span class="highlight_text">smallholder farmers</span> with technology to realize their production potential and increase their incomes.
             </p>
           </div>
         </div>
       </section>
+
+      <section class='products '>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class='relative-div'>
+                <img class='icon-abs-1' src='images/grant.svg' alt='' />
+                <img class='icon-abs-2' src='images/database.svg' alt='' />
+                <img class='icon-abs-3' src='images/allied.svg' alt='' />
+                <img class='icon-abs-4' src='images/barrel.svg' alt='' />
+              </div>
+
+              <div class='offer-container'>
+                <div class='offer-title-container'>
+                  <h4 class='offer-title'>TradeBuza AgroAPI</h4>
+                  <p class='offer-subtitle'>
+                    Leverage our API infrastructure to validate your
+                    operational and agriculture financing processes.
+                  </p>
+                  <button class="banner-button">
+                    <a href="qgroAPI.html" class="button-link">Learn more</a>
+                  </button>
+                </div>
+                <div class='offer-card-container-1'>
+                  <div class='offer-card1'>
+                    <h4 class='offer-card-title1'>Farm Monitoring</h4>
+                    <p class='offer-card-subtitle1'>
+                      Receive standardized and aggregated real-time imagery from
+                      major satellite providers. Monitor your field health
+                      evolution over time.
+                    </p>
+                  </div>
+                  <div class='offer-card1'>
+                    <h4 class='offer-card-title1'>Farm Validation</h4>
+                    <p class='offer-card-subtitle1'>
+                      Get consistent and instant validation checks for your
+                      preferred farmlands, with full datasets and summaries
+                      based on GPS coordinates and rendered maps.
+                    </p>
+                  </div>
+                </div>
+                <div class='offer-card-container-2'>
+                  <div class='offer-card1'>
+                    <h4 class='offer-card-title1'>Payment Services</h4>
+                    <p class='offer-card-subtitle1'>
+                      Disburse loans, salaries, and sales contributions in an
+                      easy and organized manner.
+                    </p>
+                  </div>
+
+                  <div class='offer-card1'>
+                    <h4 class='offer-card-title1'>Pre-loan Assessment</h4>
+                    <p class='offer-card-subtitle1'>
+                      Monitor and manage ag-lending operations and portfolio at
+                      scale.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- <img src="images/database.svg" class="d-block w-100" alt="..."> -->
+            </div>
+
+<!-- 
+            <div class="carousel-item">
+              <img src="images/header.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/truck.svg" class="d-block w-100" alt="...">
+            </div>
+          </div> -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+
+
     </main>
     <footer class="footer">
       <div>
@@ -124,5 +279,7 @@
       </div>
       <span class="copyright">© Tradebuza 2023, All Rights Reserved</span>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   </body>
 </html>
