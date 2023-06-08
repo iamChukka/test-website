@@ -732,11 +732,32 @@ section h2 {
             }
           }
         
+          /* .offer-page {
+            background-image: url(images/banner-image.svg);
+          } */
+
+          .offer-nav {
+            color: var(--clr-text);
+            font-size: 1.3rem;
+            font-weight: 100;
+          }
+
+          .offer_paragraph {
+            size: 70%;
+          }
+          .offer-header-icon {
+            margin-left: 5.875rem;
+          }
+
+          .offer-header-icon img {
+            width: 411px;
+            height: 363px;
+          }
 
 
           .footer-text {
             color: var(--clr-text);
-            font-size: 1.2rem;
+            font-size: 1.1rem;
           }
 
           .footer-header-text {
