@@ -742,18 +742,125 @@ section h2 {
             font-weight: 100;
           }
 
-          .offer_paragraph {
-            size: 70%;
-          }
           .offer-header-icon {
-            margin-left: 5.875rem;
+            margin: 0;
+          }
+
+          .jumbotron-new {
+            display: flex;
+            margin: auto;
+            padding: 5%;
+            /* width: 70%; */
           }
 
           .offer-header-icon img {
-            width: 411px;
+            width: 511px;
             height: 363px;
           }
 
+          .offer_sub_text {
+            color: #14b6a7;
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            margin-top: 0!important;
+          }
+
+          .offer_main_text {
+            color: black;
+            font-weight: 500;
+            font-size: 1.15rem;
+          }
+
+          .offer_button {
+            background-color: #14b6a7;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 1rem;
+            font-size: 1.8rem;
+            padding: 0.7rem 1.4rem;
+        }
+      
+        .offer_card_section .card {
+          align-items: center;
+          border-radius: 5px;
+          box-shadow: 0 0.95rem 2rem rgba(94,108,132,.13);
+          /* display: flex;
+          flex-direction: column; */
+          padding: 0.8rem 0.3rem;
+          text-align: center;
+          width: 350px;
+      }
+
+      .offer_card_section .agro_card {
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 0.95rem 2rem rgba(94,108,132,.13);
+        /* display: flex;
+        flex-direction: column; */
+        padding: 0.8rem 0.3rem;
+        text-align: center;
+        width: 380px;
+    }
+
+    .card_01 {
+      padding-bottom: 25px;
+    }
+    .card_1 {
+      padding-bottom: 50px;
+    }
+
+    .agro_card_03 {
+      padding-bottom: 25px;
+    }
+    .agro_card_3 {
+      padding-bottom: 30px;
+    }
+
+    .card_6 {
+      padding-bottom: 50px;
+    }
+      .offer_card_icon {
+        width: 80px;
+        margin: 0 auto;
+      }
+
+      .card_header_text {
+        font-size: 1.39rem;
+        font-weight: 800;
+      }
+
+      .offer_card_section p {
+        font-weight: 500;
+        font-size: 1.08rem;
+      }
+
+      .farmer_icon {
+        width: 50px;
+      }
+
+      .offer-farmer-icon img {
+        width: 611px;
+        height: 390px;
+      }
+
+      .onboard_text {
+        font-size: 2.9rem!important;
+        font-weight: 800;
+        margin-bottom: 4rem;
+      }
+
+      .jumbotron-outro {
+        display: flex;
+        margin: auto;
+        padding: 3%;
+        /* width: 70%; */
+      }
+
+      .card_3 {
+        padding-bottom: 75px;
+      }
 
           .footer-text {
             color: var(--clr-text);
